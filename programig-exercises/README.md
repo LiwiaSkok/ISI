@@ -120,3 +120,72 @@ Hint: oprócz funkcji write() skorzystaj również z menadżera kontekstu with, 
 **Zrzut ekranu:**
 
 ![task-10](./screenshots/task-10-02.png)
+
+## task-11
+
+**Treść zadania:**
+Odwrócić sentencję podaną przez użytkownika.
+
+**Plik z rozwiązaniem:** [task-11.py](./task-11.py)
+
+**Zrzut ekranu:**
+![task-11](./screenshots/task-11.png)
+
+## task-12
+
+**Treść zadania:**
+Zamienić wszystkie litery o na 0, e na 3, i na 1, a na 4 w podanej przez użytkownika sentencji.
+
+**Plik z rozwiązaniem:** [task-12.py](./task-12.py)
+
+**Zrzut ekranu:**
+![task-12](./screenshots/task-12.png)
+
+## task-13
+
+**Treść zadania:**
+Używając pętli wyświetl liczby w przedziale od 1 do 50 oprócz liczb podzielnych przez 3.
+**Plik z rozwiązaniem:** [task-13.py](./task-13.py)
+
+**Zrzut ekranu:**
+![task-13](./screenshots/task-13.png)
+
+## task-14
+
+**Treść zadania:**  
+Używając pętli dodaj do wcześniej zadeklarowanej tabeli liczby z przedziału 1-100, które są podzielne przez 3 i 4.
+
+**Plik z rozwiązaniem:** [task-14.py](./task-14.py)
+
+**Zrzut ekranu:**
+![task-14](./screenshots/task-14.png)
+
+## task-15
+
+**Treść zadania:**  
+Używając pętli dodaj do wcześniej zadeklarowanej tabeli liczby z przedziału 1-100, które są podzielne przez 3 lub 5.
+
+**Plik z rozwiązaniem:** [task-15.py](./task-15.py)
+
+**Zrzut ekranu:**
+![task-15](./screenshots/task-15.png)
+
+## task-16
+
+**Treść zadania:**  
+Napisz funkcję `potega()`, która podnosi podaną liczbę do trzeciej potęgi.
+
+**Plik z rozwiązaniem:** [task-16.py](./task-16.py)
+
+**Zrzut ekranu:**
+![task-16](./screenshots/task-16.png)
+
+## task-17
+
+**Treść zadania:**  
+Stwórz klasę o nazwie Dog, która będzie posiadała zmienne takie jak: name, age, coat_color. Dodatkowo klasa posiada funkcje sound(), po wywołaniu której wypisywany jest tekst: {name} is barking! Stworzyć 3 obiekty klasy Dog.
+
+**Plik z rozwiązaniem:** [task-17.py](./task-17.py)
+
+**Zrzut ekranu:**
+![task-17](./screenshots/task-17.png)
