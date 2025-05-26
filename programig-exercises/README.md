@@ -129,6 +129,7 @@ Odwrócić sentencję podaną przez użytkownika.
 **Plik z rozwiązaniem:** [task-11.py](./task-11.py)
 
 **Zrzut ekranu:**
+
 ![task-11](./screenshots/task-11.png)
 
 ## task-12
@@ -139,6 +140,7 @@ Zamienić wszystkie litery o na 0, e na 3, i na 1, a na 4 w podanej przez użytk
 **Plik z rozwiązaniem:** [task-12.py](./task-12.py)
 
 **Zrzut ekranu:**
+
 ![task-12](./screenshots/task-12.png)
 
 ## task-13
@@ -148,6 +150,7 @@ Używając pętli wyświetl liczby w przedziale od 1 do 50 oprócz liczb podziel
 **Plik z rozwiązaniem:** [task-13.py](./task-13.py)
 
 **Zrzut ekranu:**
+
 ![task-13](./screenshots/task-13.png)
 
 ## task-14
@@ -158,6 +161,7 @@ Używając pętli dodaj do wcześniej zadeklarowanej tabeli liczby z przedziału
 **Plik z rozwiązaniem:** [task-14.py](./task-14.py)
 
 **Zrzut ekranu:**
+
 ![task-14](./screenshots/task-14.png)
 
 ## task-15
@@ -168,6 +172,7 @@ Używając pętli dodaj do wcześniej zadeklarowanej tabeli liczby z przedziału
 **Plik z rozwiązaniem:** [task-15.py](./task-15.py)
 
 **Zrzut ekranu:**
+
 ![task-15](./screenshots/task-15.png)
 
 ## task-16
@@ -178,6 +183,7 @@ Napisz funkcję `potega()`, która podnosi podaną liczbę do trzeciej potęgi.
 **Plik z rozwiązaniem:** [task-16.py](./task-16.py)
 
 **Zrzut ekranu:**
+
 ![task-16](./screenshots/task-16.png)
 
 ## task-17
@@ -188,4 +194,5 @@ Stwórz klasę o nazwie Dog, która będzie posiadała zmienne takie jak: name, 
 **Plik z rozwiązaniem:** [task-17.py](./task-17.py)
 
 **Zrzut ekranu:**
+
 ![task-17](./screenshots/task-17.png)
