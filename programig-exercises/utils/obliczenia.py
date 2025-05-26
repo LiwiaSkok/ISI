@@ -9,5 +9,5 @@ def silnia(x):
 def logarytm(x, podstawa=math.e):
     return math.log(x, podstawa)
 
-def sinus(x):
-    return math.sin(x)
+def potega(x, y):
+    return x ** y
