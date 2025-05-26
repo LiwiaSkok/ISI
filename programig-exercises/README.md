@@ -105,3 +105,18 @@ Stwórz klasy Vehicle i Car z polami nazwa, rok_produkcji i przebieg oraz metoda
 **Zrzut ekranu:**
 
 ![task-9](./screenshots/task-09.png)
+
+## task-10
+
+**Treść zadania:**
+Napisz program, który korzystająć z metody chr() wygeneruje łańcuch znakowy z alfabetem, czyli 'abc....xyz'. Do pliku alfabet1-numeralbumu.txt zapisz wygenerowany łańcuch znakowy, a do pliku alfabet2-numeralbumu.txt zapisz litery z ww. łańcucha znakowego, tylko że każda litera ma się znaleźć w osobnej linii w pliku.
+Hint: oprócz funkcji write() skorzystaj również z menadżera kontekstu with, żeby nie zapomnieć o zamknięciu pliku.
+**Plik z rozwiązaniem:** [task-10.py](./task-10.py)
+
+**Zrzut ekranu:**
+
+![task-10](./screenshots/task-10-01.png)
+
+**Zrzut ekranu:**
+
+![task-10](./screenshots/task-10-02.png)
