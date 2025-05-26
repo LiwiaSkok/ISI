@@ -1,12 +1,20 @@
-char_input = input("Podaj znak: ")
-first_char = char_input[0]
+# Wczytanie znaku (lub więcej znaków)
+wejscie = input("Podaj znak: ")
 
-# Sposób 1
-if first_char.isdigit():
-    print("To jest cyfra. (isdigit)")
-
-# Sposób 2
-if isinstance(first_char, str) and '0' <= first_char <= '9':
-    print("To jest cyfra. (isinstance)")
+# Sprawdzenie, czy coś w ogóle wpisano
+if len(wejscie) == 0:
+    print("Nie podano żadnego znaku.")
 else:
-    print("To NIE jest cyfra.")
+    znak = wejscie[0]  # Bierzemy tylko pierwszy znak
+
+    # --- Sposób 1: z użyciem isdigit() ---
+    if znak.isdigit():
+        print(f"(isdigit) Znak '{znak}' jest cyfrą.")
+    else:
+        print(f"(isdigit) Znak '{znak}' nie jest cyfrą.")
+
+    # --- Sposób 2: z użyciem isinstance() ---
+    if isinstance(znak, str) and znak in '0123456789':
+        print(f"(isinstance) Znak '{znak}' jest cyfrą.")
+    else:
+        print(f"(isinstance) Znak '{znak}' nie jest cyfrą.")
