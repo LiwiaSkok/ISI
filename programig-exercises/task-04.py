@@ -11,7 +11,6 @@ else:
     for i in range(len(czesci) - 1):
         indeks += len(czesci[i])
         indeksy.append(indeks)
-        # dodaj długość szukanego ciągu, żeby kontynuować po nim
         indeks += len(szukany)
 
     if indeksy:

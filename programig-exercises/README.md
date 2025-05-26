@@ -56,4 +56,16 @@ Hint: skorzystaj z modułu math i z tzw. 'list comprehensions'.
 **Zrzut ekranu – Sposób 2:**  
 ![task-05-02](./screenshots/task-05-02.png)
 
+## task-06
+
+**Treść zadania:**
+Napisz program, który tworzy słownik o nazwie zawierającej Twój numer albumu.
+Kluczami powinny być liczby od 10 do 20, a wartościami pseudolosowe łańcuch znaków o długości 8.
+Hint: skorzystaj z modułów string i random.
+
+**Plik z rozwiązaniem:** [task-06.py](./task-06.py)
+
+**Zrzut ekranu:**
+![task-6](./screenshots/task-06.png)
+
 
