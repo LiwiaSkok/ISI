@@ -66,6 +66,7 @@ Hint: skorzystaj z modułów string i random.
 **Plik z rozwiązaniem:** [task-06.py](./task-06.py)
 
 **Zrzut ekranu:**
+
 ![task-6](./screenshots/task-06.png)
 
 
