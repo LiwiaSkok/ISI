@@ -71,4 +71,15 @@ Hint: skorzystaj z modułów string i random.
 
 ![task-6](./screenshots/task-06.png)
 
+## task-07
+
+**Treść zadania:**
+Stwórz folder utils, a w nim plik 'obliczenia.py', w którym należy zaimplementować cztery wybrane funkcje matematyczne z modułu math.
+Następnie należy utworzyć plik skrypt7-nr_albumu.py i zaimportować w nim ww. funkcje do obliczeń na przykładowych wartościach.
+
+**Plik z rozwiązaniem:** [skrypt7_25086.py](./skrypt7_25086.py) [obliczenia.py](./utils/obliczenia.py)
+
+**Zrzut ekranu:**
+
+![task-7](./screenshots/task-07.png)
 
