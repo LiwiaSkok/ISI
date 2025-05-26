@@ -14,11 +14,13 @@ def get_all_links(url):
     links = [a["href"] for a in soup.find_all("a", href=True)]
     return links
 
-url = "https://www.onet.pl/" 
+def main():
+    url = "https://www.onet.pl/"
+    linki = get_all_links(url)
 
+    print(f"Znaleziono {len(linki)} hiperłączy:\n")
+    for link in linki:
+        print(link)
 
-linki = get_all_links(url)
-
-print(f"Znaleziono {len(linki)} hiperłączy:\n")
-for link in linki:
-    print(link)
+if __name__ == '__main__':
+    main()

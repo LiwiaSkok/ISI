@@ -7,10 +7,14 @@ class Dog:
     def sound(self):
         print(f"{self.name} is barking!")
 
-dog1 = Dog("Carmen", 3, "Kremowy")
-dog2 = Dog("Lexy", 5, "Brązowa")
-dog3 = Dog("Franek", 2, "Biały")
+def main():
+    dog1 = Dog("Carmen", 3, "Kremowy")
+    dog2 = Dog("Lexy", 5, "Brązowa")
+    dog3 = Dog("Franek", 2, "Biały")
 
-dog1.sound()
-dog2.sound()
-dog3.sound()
+    dog1.sound()
+    dog2.sound()
+    dog3.sound()
+
+if __name__ == '__main__':
+    main()

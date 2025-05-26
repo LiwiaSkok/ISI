@@ -9,5 +9,10 @@ def sprawdz_liczbe(wejscie):
     else:
         return f"To nie jest liczbą: {wejscie}"
 
-wejscie = input("Podaj łańcuch znaków: ")
-print(sprawdz_liczbe(wejscie))
+def main():
+    wejscie = input("Podaj łańcuch znaków: ")
+    wynik = sprawdz_liczbe(wejscie)
+    print(wynik)
+
+if __name__ == '__main__':
+    main()
