@@ -29,6 +29,7 @@ Hint: skorzystaj z funkcji find().
 **Plik z rozwiązaniem:** [task-03.py](./task-03.py)
 
 **Zrzut ekranu:**
+
 ![task-3](./screenshots/task-03.png)
 
 ## task-04
@@ -40,6 +41,7 @@ Hint: skorzystaj z funkcji split().
 **Plik z rozwiązaniem:** [task-04.py](./task-04.py)
 
 **Zrzut ekranu:**
+
 ![task-4](./screenshots/task-04.png)
 
 ## task-05
