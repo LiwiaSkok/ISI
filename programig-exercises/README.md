@@ -261,11 +261,11 @@ Za pomocą pętli stworzyć 1000 losowych 6 znakowych wyrazów [A-Z][a-z][0-9] i
 
 **Zrzut ekranu:**
 
-![task-23](./screenshots/task-23-01.png)
+![task-23](./screenshots/task-23-02.png)
 
 **Zrzut ekranu:**
 
-![task-23](./screenshots/task-23-02.png)
+![task-23](./screenshots/task-23-01.png)
 
 ## task-24
 
