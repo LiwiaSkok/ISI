@@ -294,4 +294,16 @@ Za pomocą pakietu do web-scrappingu, np.beautifulsoup lub jsoup, zapisać do ta
 
 ![task-25](./screenshots/task-25.png)
 
+## task-26
+
+**Treść zadania:**  
+Za pomocą pakietu do web-scrappingu, np.beautifulsoup lub jsoup, zapisać do tablicy wszystkie hiperłącza występujące na wybranej przez siebie stronie.
+
+
+**Plik z rozwiązaniem:** [task-26.py](./task-26.py)
+
+**Zrzut ekranu:**
+
+![task-26](./screenshots/task-26.png)
+
 
