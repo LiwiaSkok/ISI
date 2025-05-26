@@ -44,13 +44,16 @@ Hint: skorzystaj z funkcji split().
 
 ## task-05
 
-**Treść zadania:**
-Napisz program (na dwa sposoby), który szuka pierwiastków liczb od 1 do 256 (włącznie) podzielnych bez reszty przez 2.
-Hint: skorzystaj z modułu math i z tzw. 'list comprehensions'.
+**Treść zadania:**  
+Napisz program (na dwa sposoby), który szuka pierwiastków liczb od 1 do 256 (włącznie) podzielnych bez reszty przez 2.  
+Hint: skorzystaj z modułu math i z tzw. 'list comprehensions'.  
 
 **Plik z rozwiązaniem:** [task-05.py](./task-05.py)
 
-**Zrzut ekranu:**
-![task-05-01](./screenshots/task-05-01.png)  
+**Zrzut ekranu – Sposób 1:**  
+![task-05-01](./screenshots/task-05-01.png)
+
+**Zrzut ekranu – Sposób 2:**  
 ![task-05-02](./screenshots/task-05-02.png)
+
 
