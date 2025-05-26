@@ -51,6 +51,6 @@ Hint: skorzystaj z modułu math i z tzw. 'list comprehensions'.
 **Plik z rozwiązaniem:** [task-05.py](./task-05.py)
 
 **Zrzut ekranu:**
-![task-5](./screenshots/task-05-01.png)
-![task-5](./screenshots/task-05-02.png)
+![task-05-01](./screenshots/task-05-01.png)  
+![task-05-02](./screenshots/task-05-02.png)
 
