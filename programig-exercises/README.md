@@ -30,3 +30,27 @@ Hint: skorzystaj z funkcji find().
 
 **Zrzut ekranu:**
 ![task-3](./screenshots/task-03.png)
+
+## task-04
+
+**Treść zadania:**
+Napisz program, który szuka określonego ciągu znaków w łańcuchu znakowym i zwraca indeksy wszystkich wystąpień ciągu lub -1, gdy nie ma takiego ciągu.
+Hint: skorzystaj z funkcji split().
+
+**Plik z rozwiązaniem:** [task-04.py](./task-04.py)
+
+**Zrzut ekranu:**
+![task-4](./screenshots/task-04.png)
+
+## task-05
+
+**Treść zadania:**
+Napisz program (na dwa sposoby), który szuka pierwiastków liczb od 1 do 256 (włącznie) podzielnych bez reszty przez 2.
+Hint: skorzystaj z modułu math i z tzw. 'list comprehensions'.
+
+**Plik z rozwiązaniem:** [task-05.py](./task-05.py)
+
+**Zrzut ekranu:**
+![task-5](./screenshots/task-05-01.png)
+![task-5](./screenshots/task-05-02.png)
+
