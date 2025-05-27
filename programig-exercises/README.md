@@ -52,10 +52,12 @@ Hint: skorzystaj z modułu math i z tzw. 'list comprehensions'.
 
 **Plik z rozwiązaniem:** [skrypt5-25086.py](./skrypt5-25086.py)
 
-**Zrzut ekranu – Sposób 1:**  
+**Zrzut ekranu – Sposób 1:**
+
 ![task-05-01](./screenshots/task-05-01.png)
 
-**Zrzut ekranu – Sposób 2:**  
+**Zrzut ekranu – Sposób 2:**
+
 ![task-05-02](./screenshots/task-05-02.png)
 
 ## task-06
@@ -111,6 +113,7 @@ Stwórz klasy Vehicle i Car z polami nazwa, rok_produkcji i przebieg oraz metoda
 **Treść zadania:**
 Napisz program, który korzystająć z metody chr() wygeneruje łańcuch znakowy z alfabetem, czyli 'abc....xyz'. Do pliku alfabet1-numeralbumu.txt zapisz wygenerowany łańcuch znakowy, a do pliku alfabet2-numeralbumu.txt zapisz litery z ww. łańcucha znakowego, tylko że każda litera ma się znaleźć w osobnej linii w pliku.
 Hint: oprócz funkcji write() skorzystaj również z menadżera kontekstu with, żeby nie zapomnieć o zamknięciu pliku.
+
 **Plik z rozwiązaniem:** [skrypt10-25086.py](./skrypt10-25086.py)
 
 **Zrzut ekranu:**
@@ -147,6 +150,7 @@ Zamienić wszystkie litery o na 0, e na 3, i na 1, a na 4 w podanej przez użytk
 
 **Treść zadania:**
 Używając pętli wyświetl liczby w przedziale od 1 do 50 oprócz liczb podzielnych przez 3.
+
 **Plik z rozwiązaniem:** [skrypt13-25086.py](./skrypt13-25086.py)
 
 **Zrzut ekranu:**
@@ -246,6 +250,7 @@ Dziedziczenie klas. Klasa Animal ma zawierać atrybuty takie jak name, age, sex 
 
 **Treść zadania:**  
 Należy wykorzystać plik wordlist_10000.txt i stworzyć funkcję wyszukującą najdłuższy wyraz w tym pliku oraz drugą funkcję, która wyszuka wyrazy o długości 10.
+
 **Plik z rozwiązaniem:** [skrypt22-25086.py](./skrypt22-25086.py)
 
 **Zrzut ekranu:**
