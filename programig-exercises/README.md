@@ -1,29 +1,34 @@
-## task-01
+## TASK-01
 
 **Treść zadania:**
-Program sprawdza, czy wczytany pojedynczy znak jest cyfrą. Jeśli wczytamy więcej znaków, bierze tylko pierwszy.
+
+> Program sprawdza, czy wczytany pojedynczy znak jest cyfrą. Jeśli wczytamy więcej znaków, bierze tylko pierwszy.
 Hint: skorzystaj z funkcji isdigit() i isinstance().
 
 **Plik z rozwiązaniem:** [skrypt01-25086.py](./skrypt01-25086.py)
 
 **Zrzut ekranu:**
+
 ![task-01](./screenshots/task-01.png)
 
-## task-02
+## TASK-02
 
 **Treść zadania:**
-Napisz program, który sprawdza czy wczytany łańcuch znakowy jest liczbą lub nie. Muszą być wczytane co najmniej dwa znaki.
+
+> Napisz program, który sprawdza czy wczytany łańcuch znakowy jest liczbą lub nie. Muszą być wczytane co najmniej dwa znaki.
 Hint: skorzystaj z funkcji all().
 
 **Plik z rozwiązaniem:** [skrypt02-25086.py](./skrypt02-25086.py)
 
 **Zrzut ekranu:**
+
 ![task-2](./screenshots/task-02.png)
 
-## task-03
+## TASK-03
 
 **Treść zadania:**
-Napisz program, który szuka określonego ciągu znaków w łańcuchu znakowym i zwraca indeks pierwszego wystąpienia ciągu lub -1, gdy nie ma takiego ciągu.
+
+> Napisz program, który szuka określonego ciągu znaków w łańcuchu znakowym i zwraca indeks pierwszego wystąpienia ciągu lub -1, gdy nie ma takiego ciągu.
 Hint: skorzystaj z funkcji find().
 
 **Plik z rozwiązaniem:** [skrypt03-25086.py](./skrypt03-25086.py)
@@ -32,10 +37,11 @@ Hint: skorzystaj z funkcji find().
 
 ![task-3](./screenshots/task-03.png)
 
-## task-04
+## TASK-04
 
 **Treść zadania:**
-Napisz program, który szuka określonego ciągu znaków w łańcuchu znakowym i zwraca indeksy wszystkich wystąpień ciągu lub -1, gdy nie ma takiego ciągu.
+
+> Napisz program, który szuka określonego ciągu znaków w łańcuchu znakowym i zwraca indeksy wszystkich wystąpień ciągu lub -1, gdy nie ma takiego ciągu.
 Hint: skorzystaj z funkcji split().
 
 **Plik z rozwiązaniem:** [skrypt04-25086.py](./skrypt04-25086.py)
@@ -44,10 +50,11 @@ Hint: skorzystaj z funkcji split().
 
 ![task-4](./screenshots/task-04.png)
 
-## task-05
+## TASK-05
 
 **Treść zadania:**  
-Napisz program (na dwa sposoby), który szuka pierwiastków liczb od 1 do 256 (włącznie) podzielnych bez reszty przez 2.  
+
+> Napisz program (na dwa sposoby), który szuka pierwiastków liczb od 1 do 256 (włącznie) podzielnych bez reszty przez 2.  
 Hint: skorzystaj z modułu math i z tzw. 'list comprehensions'.  
 
 **Plik z rozwiązaniem:** [skrypt05-25086.py](./skrypt05-25086.py)
