@@ -4,7 +4,7 @@
 Program sprawdza, czy wczytany pojedynczy znak jest cyfrą. Jeśli wczytamy więcej znaków, bierze tylko pierwszy.
 Hint: skorzystaj z funkcji isdigit() i isinstance().
 
-**Plik z rozwiązaniem:** [task-01.py](./task-01.py)
+**Plik z rozwiązaniem:** [skrypt1-25086.py](./skrypt1-25086.py)
 
 **Zrzut ekranu:**
 ![task-01](./screenshots/task-01.png)
@@ -15,7 +15,7 @@ Hint: skorzystaj z funkcji isdigit() i isinstance().
 Napisz program, który sprawdza czy wczytany łańcuch znakowy jest liczbą lub nie. Muszą być wczytane co najmniej dwa znaki.
 Hint: skorzystaj z funkcji all().
 
-**Plik z rozwiązaniem:** [task-02.py](./task-02.py)
+**Plik z rozwiązaniem:** [skrypt2-25086.py](./skrypt2-25086.py)
 
 **Zrzut ekranu:**
 ![task-2](./screenshots/task-02.png)
@@ -26,7 +26,7 @@ Hint: skorzystaj z funkcji all().
 Napisz program, który szuka określonego ciągu znaków w łańcuchu znakowym i zwraca indeks pierwszego wystąpienia ciągu lub -1, gdy nie ma takiego ciągu.
 Hint: skorzystaj z funkcji find().
 
-**Plik z rozwiązaniem:** [task-03.py](./task-03.py)
+**Plik z rozwiązaniem:** [skrypt3-25086.py](./skrypt3-25086.py)
 
 **Zrzut ekranu:**
 
@@ -38,7 +38,7 @@ Hint: skorzystaj z funkcji find().
 Napisz program, który szuka określonego ciągu znaków w łańcuchu znakowym i zwraca indeksy wszystkich wystąpień ciągu lub -1, gdy nie ma takiego ciągu.
 Hint: skorzystaj z funkcji split().
 
-**Plik z rozwiązaniem:** [task-04.py](./task-04.py)
+**Plik z rozwiązaniem:** [skrypt4-25086.py](./skrypt4-25086.py)
 
 **Zrzut ekranu:**
 
@@ -50,7 +50,7 @@ Hint: skorzystaj z funkcji split().
 Napisz program (na dwa sposoby), który szuka pierwiastków liczb od 1 do 256 (włącznie) podzielnych bez reszty przez 2.  
 Hint: skorzystaj z modułu math i z tzw. 'list comprehensions'.  
 
-**Plik z rozwiązaniem:** [task-05.py](./task-05.py)
+**Plik z rozwiązaniem:** [skrypt5-25086.py](./skrypt5-25086.py)
 
 **Zrzut ekranu – Sposób 1:**  
 ![task-05-01](./screenshots/task-05-01.png)
@@ -65,7 +65,7 @@ Napisz program, który tworzy słownik o nazwie zawierającej Twój numer albumu
 Kluczami powinny być liczby od 10 do 20, a wartościami pseudolosowe łańcuch znaków o długości 8.
 Hint: skorzystaj z modułów string i random.
 
-**Plik z rozwiązaniem:** [task-06.py](./task-06.py)
+**Plik z rozwiązaniem:** [skrypt6-25086.py](./skrypt6-25086.py)
 
 **Zrzut ekranu:**
 
@@ -89,7 +89,7 @@ Następnie należy utworzyć plik skrypt7-nr_albumu.py i zaimportować w nim ww.
 Napisz program, który generuje losowy ciąg znaków o długości 100, a następnie utwórz słownik którego kluczami będą unikalne znaki występujące w ciągu, a wartościami liczba ich wystąpień w ciągu znakowym. Utwórz listę, której każdy element to krotka (tupla), zawierająca kolejny klucz z ww. słownika i odpowiadającą mu wartość liczbową.
 Hint: skorzystaj z modułu collections i klasy Counter().
 
-**Plik z rozwiązaniem:** [task-08.py](./task-08.py)
+**Plik z rozwiązaniem:** [skrypt8-25086.py](./skrypt8-25086.py)
 
 **Zrzut ekranu:**
 
@@ -111,7 +111,7 @@ Stwórz klasy Vehicle i Car z polami nazwa, rok_produkcji i przebieg oraz metoda
 **Treść zadania:**
 Napisz program, który korzystająć z metody chr() wygeneruje łańcuch znakowy z alfabetem, czyli 'abc....xyz'. Do pliku alfabet1-numeralbumu.txt zapisz wygenerowany łańcuch znakowy, a do pliku alfabet2-numeralbumu.txt zapisz litery z ww. łańcucha znakowego, tylko że każda litera ma się znaleźć w osobnej linii w pliku.
 Hint: oprócz funkcji write() skorzystaj również z menadżera kontekstu with, żeby nie zapomnieć o zamknięciu pliku.
-**Plik z rozwiązaniem:** [task-10.py](./task-10.py)
+**Plik z rozwiązaniem:** [skrypt10-25086.py](./skrypt10-25086.py)
 
 **Zrzut ekranu:**
 
@@ -126,7 +126,7 @@ Hint: oprócz funkcji write() skorzystaj również z menadżera kontekstu with, 
 **Treść zadania:**
 Odwrócić sentencję podaną przez użytkownika.
 
-**Plik z rozwiązaniem:** [task-11.py](./task-11.py)
+**Plik z rozwiązaniem:** [skrypt11-25086.py](./skrypt11-25086.py)
 
 **Zrzut ekranu:**
 
@@ -137,7 +137,7 @@ Odwrócić sentencję podaną przez użytkownika.
 **Treść zadania:**
 Zamienić wszystkie litery o na 0, e na 3, i na 1, a na 4 w podanej przez użytkownika sentencji.
 
-**Plik z rozwiązaniem:** [task-12.py](./task-12.py)
+**Plik z rozwiązaniem:** [skrypt12-25086.py](./skrypt12-25086.py)
 
 **Zrzut ekranu:**
 
@@ -147,7 +147,7 @@ Zamienić wszystkie litery o na 0, e na 3, i na 1, a na 4 w podanej przez użytk
 
 **Treść zadania:**
 Używając pętli wyświetl liczby w przedziale od 1 do 50 oprócz liczb podzielnych przez 3.
-**Plik z rozwiązaniem:** [task-13.py](./task-13.py)
+**Plik z rozwiązaniem:** [skrypt13-25086.py](./skrypt13-25086.py)
 
 **Zrzut ekranu:**
 
@@ -158,7 +158,7 @@ Używając pętli wyświetl liczby w przedziale od 1 do 50 oprócz liczb podziel
 **Treść zadania:**  
 Używając pętli dodaj do wcześniej zadeklarowanej tabeli liczby z przedziału 1-100, które są podzielne przez 3 i 4.
 
-**Plik z rozwiązaniem:** [task-14.py](./task-14.py)
+**Plik z rozwiązaniem:** [skrypt14-25086.py](./skrypt14-25086.py)
 
 **Zrzut ekranu:**
 
@@ -169,7 +169,7 @@ Używając pętli dodaj do wcześniej zadeklarowanej tabeli liczby z przedziału
 **Treść zadania:**  
 Używając pętli dodaj do wcześniej zadeklarowanej tabeli liczby z przedziału 1-100, które są podzielne przez 3 lub 5.
 
-**Plik z rozwiązaniem:** [task-15.py](./task-15.py)
+**Plik z rozwiązaniem:** [skrypt15-25086.py](./skrypt15-25086.py)
 
 **Zrzut ekranu:**
 
@@ -180,7 +180,7 @@ Używając pętli dodaj do wcześniej zadeklarowanej tabeli liczby z przedziału
 **Treść zadania:**  
 Napisz funkcję `potega()`, która podnosi podaną liczbę do trzeciej potęgi.
 
-**Plik z rozwiązaniem:** [task-16.py](./task-16.py)
+**Plik z rozwiązaniem:** [skrypt16-25086.py](./skrypt16-25086.py)
 
 **Zrzut ekranu:**
 
@@ -191,7 +191,7 @@ Napisz funkcję `potega()`, która podnosi podaną liczbę do trzeciej potęgi.
 **Treść zadania:**  
 Stwórz klasę o nazwie Dog, która będzie posiadała zmienne takie jak: name, age, coat_color. Dodatkowo klasa posiada funkcje sound(), po wywołaniu której wypisywany jest tekst: {name} is barking! Stworzyć 3 obiekty klasy Dog.
 
-**Plik z rozwiązaniem:** [task-17.py](./task-17.py)
+**Plik z rozwiązaniem:** [skrypt17-25086.py](./skrypt17-25086.py)
 
 **Zrzut ekranu:**
 
@@ -213,7 +213,7 @@ Stworzyć plik funkcje.py, w którym należy zaimplementować funkcję: dodawani
 **Treść zadania:**  
 Sprawdź czy wyraz bądź zdanie podane przez użytkownika jest palindromem.
 
-**Plik z rozwiązaniem:** [task-19.py](./task-19.py)
+**Plik z rozwiązaniem:** [skrypt19-25086.py](./skrypt19-25086.py)
 
 **Zrzut ekranu:**
 
@@ -224,7 +224,7 @@ Sprawdź czy wyraz bądź zdanie podane przez użytkownika jest palindromem.
 **Treść zadania:**  
 Prosta gra, program generuje losową liczbę od 1 do 100, użytkownik ma odgadnąć liczbę, jeżeli nie trafi ma zostać wyświetlona podpowiedź czy za duża czy za mała liczba.
 
-**Plik z rozwiązaniem:** [task-20.py](./task-20.py)
+**Plik z rozwiązaniem:** [skrypt20-25086.py](./skrypt20-25086.py)
 
 **Zrzut ekranu:**
 
@@ -236,7 +236,7 @@ Prosta gra, program generuje losową liczbę od 1 do 100, użytkownik ma odgadn�
 **Treść zadania:**  
 Dziedziczenie klas. Klasa Animal ma zawierać atrybuty takie jak name, age, sex oraz metodę sound(). Klasy Dog, Cat oraz Fox dziedziczą po klasie Animal oraz nadpisują funkcje sound() odpowiednimi dźwiękami, dodatkowo klasy Dog oraz Cat posiadają atrybut breed.
 
-**Plik z rozwiązaniem:** [task-21.py](./task-21.py)
+**Plik z rozwiązaniem:** [skrypt21-25086.py](./skrypt21-25086.py)
 
 **Zrzut ekranu:**
 
@@ -246,7 +246,7 @@ Dziedziczenie klas. Klasa Animal ma zawierać atrybuty takie jak name, age, sex 
 
 **Treść zadania:**  
 Należy wykorzystać plik wordlist_10000.txt i stworzyć funkcję wyszukującą najdłuższy wyraz w tym pliku oraz drugą funkcję, która wyszuka wyrazy o długości 10.
-**Plik z rozwiązaniem:** [task-22.py](./task-22.py)
+**Plik z rozwiązaniem:** [skrypt22-25086.py](./skrypt22-25086.py)
 
 **Zrzut ekranu:**
 
@@ -257,7 +257,7 @@ Należy wykorzystać plik wordlist_10000.txt i stworzyć funkcję wyszukującą 
 **Treść zadania:**  
 Za pomocą pętli stworzyć 1000 losowych 6 znakowych wyrazów [A-Z][a-z][0-9] i zapisać je do pliku passwords.txt.
 
-**Plik z rozwiązaniem:** [task-23.py](./task-23.py)
+**Plik z rozwiązaniem:** [skrypt23-25086.py](./skrypt23-25086.py)
 
 **Zrzut ekranu:**
 
@@ -272,7 +272,7 @@ Za pomocą pętli stworzyć 1000 losowych 6 znakowych wyrazów [A-Z][a-z][0-9] i
 **Treść zadania:**  
 Napisać funkcję tworzącą plik pc.csv. Pierwszy wiersz ma zawierać nazwy kolumn: pc_name, ip. Nazwy komputerów mają zaczynać się literą P oraz 4 oktetem adresu ip. Adresy zaczynają się od 172.30.2.1 do 172.30.2.100. Plik csv ma być rozdzielany przecinkami.
 
-**Plik z rozwiązaniem:** [task-24.py](./task-24.py)
+**Plik z rozwiązaniem:** [skrypt24-25086.py](./skrypt24-25086.py)
 
 **Zrzut ekranu:**
 
@@ -288,7 +288,7 @@ Napisać funkcję tworzącą plik pc.csv. Pierwszy wiersz ma zawierać nazwy kol
 Za pomocą pakietu do web-scrappingu, np.beautifulsoup lub jsoup, zapisać do tablicy wszystkie hiperłącza występujące na wybranej przez siebie stronie.
 
 
-**Plik z rozwiązaniem:** [task-25.py](./task-25.py)
+**Plik z rozwiązaniem:** [skrypt25-25086.py](./skrypt25-25086.py)
 
 **Zrzut ekranu:**
 
@@ -300,7 +300,7 @@ Za pomocą pakietu do web-scrappingu, np.beautifulsoup lub jsoup, zapisać do ta
 Za pomocą pakietu do web-scrappingu, np.beautifulsoup lub jsoup, zapisać do tablicy wszystkie hiperłącza występujące na wybranej przez siebie stronie.
 
 
-**Plik z rozwiązaniem:** [task-26.py](./task-26.py)
+**Plik z rozwiązaniem:** [skrypt26-25086.py](./skrypt26-25086.py)
 
 **Zrzut ekranu:**
 
