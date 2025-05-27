@@ -1,7 +1,6 @@
 from utils.obliczenia import pierwiastek, silnia, logarytm, potega
 
 def main():
-    # Przykładowe wartości
     x1 = 256
     x2 = 4
     x3 = 256

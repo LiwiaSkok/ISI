@@ -1,3 +1,5 @@
+# Należało pobrać ChromeDriver zgodny z wersją przeglądarki Chrome
+# Komenda instalacyjna (w terminalu/wierszu poleceń): pip install selenium
 import csv
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -27,7 +29,7 @@ def pobranie_postow():
 
     try:
         WebDriverWait(driver, 20).until(
-            EC.presence_of_all_elements_located((By.CSS_SELECTOR, "article[data-cy='listing-item']"))
+            EC.presence_of_all_elements_located((By.CSS_SELECTOR, "article[data-cy='listing-item']")) # Pobranie ogłoszeń
         )
     except TimeoutException:
         print("Timeout: Nie udało się załadować wszystkich ofert na czas.")
@@ -50,12 +52,14 @@ def pobranie_postow():
             homes.append(Home(tytul, cena, cena_m2))
         except NoSuchElementException as e:
             print(f"Nie znaleziono jakiegoś elementu: {e}")
-            continue
+            continue    # Przejdź do kolejnego ogłoszenia
 
+    # Zapis danych do pliku CSV
     with open("home.csv", mode="w", newline="", encoding="utf-8") as plik:
         writer = csv.writer(plik)
-        writer.writerow(["header_name", "price", "price_m2"])  # Nagłówki
+        writer.writerow(["header_name", "price", "price_m2"])
 
+        # Zapis danych każdego ogłoszenia
         for i, home in enumerate(homes, start=1):
             data = home.return_data()
             print(f"oferta_{i}", data)

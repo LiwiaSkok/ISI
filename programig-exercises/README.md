@@ -4,7 +4,7 @@
 Program sprawdza, czy wczytany pojedynczy znak jest cyfrą. Jeśli wczytamy więcej znaków, bierze tylko pierwszy.
 Hint: skorzystaj z funkcji isdigit() i isinstance().
 
-**Plik z rozwiązaniem:** [skrypt1-25086.py](./skrypt1-25086.py)
+**Plik z rozwiązaniem:** [skrypt01-25086.py](./skrypt01-25086.py)
 
 **Zrzut ekranu:**
 ![task-01](./screenshots/task-01.png)
@@ -15,7 +15,7 @@ Hint: skorzystaj z funkcji isdigit() i isinstance().
 Napisz program, który sprawdza czy wczytany łańcuch znakowy jest liczbą lub nie. Muszą być wczytane co najmniej dwa znaki.
 Hint: skorzystaj z funkcji all().
 
-**Plik z rozwiązaniem:** [skrypt2-25086.py](./skrypt2-25086.py)
+**Plik z rozwiązaniem:** [skrypt02-25086.py](./skrypt02-25086.py)
 
 **Zrzut ekranu:**
 ![task-2](./screenshots/task-02.png)
@@ -26,7 +26,7 @@ Hint: skorzystaj z funkcji all().
 Napisz program, który szuka określonego ciągu znaków w łańcuchu znakowym i zwraca indeks pierwszego wystąpienia ciągu lub -1, gdy nie ma takiego ciągu.
 Hint: skorzystaj z funkcji find().
 
-**Plik z rozwiązaniem:** [skrypt3-25086.py](./skrypt3-25086.py)
+**Plik z rozwiązaniem:** [skrypt03-25086.py](./skrypt03-25086.py)
 
 **Zrzut ekranu:**
 
@@ -38,7 +38,7 @@ Hint: skorzystaj z funkcji find().
 Napisz program, który szuka określonego ciągu znaków w łańcuchu znakowym i zwraca indeksy wszystkich wystąpień ciągu lub -1, gdy nie ma takiego ciągu.
 Hint: skorzystaj z funkcji split().
 
-**Plik z rozwiązaniem:** [skrypt4-25086.py](./skrypt4-25086.py)
+**Plik z rozwiązaniem:** [skrypt04-25086.py](./skrypt04-25086.py)
 
 **Zrzut ekranu:**
 
@@ -50,7 +50,7 @@ Hint: skorzystaj z funkcji split().
 Napisz program (na dwa sposoby), który szuka pierwiastków liczb od 1 do 256 (włącznie) podzielnych bez reszty przez 2.  
 Hint: skorzystaj z modułu math i z tzw. 'list comprehensions'.  
 
-**Plik z rozwiązaniem:** [skrypt5-25086.py](./skrypt5-25086.py)
+**Plik z rozwiązaniem:** [skrypt05-25086.py](./skrypt05-25086.py)
 
 **Zrzut ekranu – Sposób 1:**
 
@@ -67,7 +67,7 @@ Napisz program, który tworzy słownik o nazwie zawierającej Twój numer albumu
 Kluczami powinny być liczby od 10 do 20, a wartościami pseudolosowe łańcuch znaków o długości 8.
 Hint: skorzystaj z modułów string i random.
 
-**Plik z rozwiązaniem:** [skrypt6-25086.py](./skrypt6-25086.py)
+**Plik z rozwiązaniem:** [skrypt06-25086.py](./skrypt06-25086.py)
 
 **Zrzut ekranu:**
 
@@ -79,7 +79,7 @@ Hint: skorzystaj z modułów string i random.
 Stwórz folder utils, a w nim plik 'obliczenia.py', w którym należy zaimplementować cztery wybrane funkcje matematyczne z modułu math.
 Następnie należy utworzyć plik skrypt7-nr_albumu.py i zaimportować w nim ww. funkcje do obliczeń na przykładowych wartościach.
 
-**Plik z rozwiązaniem:** [skrypt7_25086.py](./skrypt7_25086.py) [obliczenia.py](./utils/obliczenia.py)
+**Plik z rozwiązaniem:** [skrypt07_25086.py](./skrypt07_25086.py) [obliczenia.py](./utils/obliczenia.py)
 
 **Zrzut ekranu:**
 
@@ -91,7 +91,7 @@ Następnie należy utworzyć plik skrypt7-nr_albumu.py i zaimportować w nim ww.
 Napisz program, który generuje losowy ciąg znaków o długości 100, a następnie utwórz słownik którego kluczami będą unikalne znaki występujące w ciągu, a wartościami liczba ich wystąpień w ciągu znakowym. Utwórz listę, której każdy element to krotka (tupla), zawierająca kolejny klucz z ww. słownika i odpowiadającą mu wartość liczbową.
 Hint: skorzystaj z modułu collections i klasy Counter().
 
-**Plik z rozwiązaniem:** [skrypt8-25086.py](./skrypt8-25086.py)
+**Plik z rozwiązaniem:** [skrypt08-25086.py](./skrypt08-25086.py)
 
 **Zrzut ekranu:**
 
@@ -102,7 +102,7 @@ Hint: skorzystaj z modułu collections i klasy Counter().
 **Treść zadania:**
 Stwórz klasy Vehicle i Car z polami nazwa, rok_produkcji i przebieg oraz metodami is_old() i is_long_mileage(). Stwórz po jednym obiekcie dla każdej z klas oraz trzeci obiekt, gdzie klasa Car dziedziczy z klasy Vehicle. Dla każdego z obiektów wywołaj obie metody, co najmniej raz użyj dekoratora @property w każdym z trzech przypadków.
 
-**Plik z rozwiązaniem:** [skrypt9-25086.py](./skrypt9-25086.py)
+**Plik z rozwiązaniem:** [skrypt09-25086.py](./skrypt09-25086.py)
 
 **Zrzut ekranu:**
 
