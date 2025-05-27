@@ -100,11 +100,11 @@ Hint: skorzystaj z modułu collections i klasy Counter().
 **Treść zadania:**
 Stwórz klasy Vehicle i Car z polami nazwa, rok_produkcji i przebieg oraz metodami is_old() i is_long_mileage(). Stwórz po jednym obiekcie dla każdej z klas oraz trzeci obiekt, gdzie klasa Car dziedziczy z klasy Vehicle. Dla każdego z obiektów wywołaj obie metody, co najmniej raz użyj dekoratora @property w każdym z trzech przypadków.
 
-**Plik z rozwiązaniem:** [task-09.py](./task-09.py)
+**Plik z rozwiązaniem:** [skrypt9-25086.py](./skrypt9-25086.py)
 
 **Zrzut ekranu:**
 
-![task-9](./screenshots/task-09.png)
+![task-09](./screenshots/task-09.png)
 
 ## task-10
 
