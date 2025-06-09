@@ -113,5 +113,152 @@ WHERE body_mass_g is NOT NULL AND sex is NULL
 
 ![exercise-10](./screenshots/exercise-10.png)
 
+# EXCERCISE-11
+> Write another query to find penguins whose sex is known but whose body mass is not.
 
-hh
+```
+SELECT * FROM penguins WHERE body_mass_g is NULL AND sex is Not NULL
+```
+
+![exercise-11](./screenshots/exercise-11.png)
+
+# EXCERCISE-12
+> What is the average body mass of penguins that weight more than 3000.0 grams?
+
+```
+SELECT AVG(body_mass_g) as average_body_mass
+FROM (SELECT body_mass_g FROM penguins WHERE body_mass_g > 3000)
+```
+
+![exercise-12](./screenshots/exercise-12.png)
+
+# EXCERCISE-13
+> How many different body masses are in the penguins dataset?
+
+```
+SELECT COUNT(body_mass_g)
+FROM(SELECT DISTINCT body_mass_g FROM penguins WHERE body_mass_g )
+```
+
+![exercise-13](./screenshots/exercise-13.png)
+
+# EXCERCISE-14
+> Write a query that shows each distinct body mass in the penguin dataset and the number of penguins that weigh that much.
+
+```
+SELECT DISTINCT COUNT(body_mass_g), body_mass_g FROM penguins
+GROUP BY body_mass_g
+```
+
+![exercise-14](./screenshots/exercise-14.png)
+
+# EXCERCISE-15
+> Write a query that uses filter to calculate the average body masses of heavy penguins (those over 4500 grams) and light penguins (those under 3500 grams) simultaneously. Is it possible to do this using where instead of filter?
+
+```
+SELECT
+    ROUND(AVG(CASE WHEN body_mass_g > 4500 THEN body_mass_g END), 1) AS heavy_penguins,
+    ROUND(AVG(CASE WHEN body_mass_g < 3500 THEN body_mass_g END), 1) AS light_penguins
+FROM penguins;
+```
+
+![exercise-15](./screenshots/exercise-15.png)
+
+# EXCERCISE-16
+> Using an in-memory database, define a table called notes with two text columns author and note and then add three or four rows. Use a query to check that the notes have been stored and that you can (for example) select by author name.
+
+```
+sqlite> CREATE TABLE notes (author TEXT NOT NULL, note TEXT NOT NULL); 
+INSERT INTO notes VALUES 
+('Ania', 'przepis'), 
+('Bartek', 'Spotkanie'), 
+('Liwia', 'zadanie'), 
+('Mariola', 'praca'); 
+SELECT * FROM notes; 
+SELECT notes WHERE author = 'Liwia';
+SELECT note FROM notes WHERE author = 'Liwia';
+```
+
+![exercise-16](./screenshots/exercise-16.png)
+
+# EXCERCISE-17
+> What happens if you try to delete rows that don't exist (e.g., all entries in work that refer to juna)?
+
+```
+DELETE FROM notes WHERE author = 'Ola'; 
+SELECT * FROM notes;
+```
+
+![exercise-17](./screenshots/exercise-17.png)
+
+# EXCERCISE-18
+> Re-create the notes table in an in-memory database and then use SQLite's .output and .dump commands to save the database to a file called notes.sql. Inspect the contents of this file: how has your data been stored?
+
+```
+sqlite> CREATE TABLE notes (author TEXT NOT NULL, note TEXT NOT NULL); 
+INSERT INTO notes VALUES 
+('Ania', 'przepis'), 
+('Bartek', 'Spotkanie'), 
+('Liwia', 'zadanie'), 
+('Mariola', 'praca'); 
+sqlite> .output notes.sql
+sqlite> .dump
+sqlite> .output stdout
+```
+
+![exercise-18](./screenshots/exercise-18.png)
+
+# EXCERCISE-19
+> Start a fresh SQLite session and load notes.sql using the .read command. Inspect the database using .schema and select *: is everything as you expected?
+
+```
+sqlite> .read notes.sql
+sqlite> .schema
+sqlite> SELECT * FROM notes;
+```
+
+![exercise-19](./screenshots/exercise-19.png)
+
+# EXCERCISE-20
+> Re-create the notes table in an in-memory database once again and use SQLite's .backup command to save it to a file called notes.db. Inspect this file using od -c notes.db or a text editor that can handle binary data: how has your data been stored?
+
+```
+sqlite> CREATE TABLE notes (author TEXT NOT NULL, note TEXT NOT NULL); 
+INSERT INTO notes VALUES 
+('Ania', 'przepis'), 
+('Bartek', 'Spotkanie'), 
+('Liwia', 'zadanie'), 
+('Mariola', 'praca'); 
+sqlite> .backup notes.db
+```
+
+![exercise-20](./screenshots/exercise-20.png)
+
+# EXCERCISE-21
+> Start a fresh SQLite session and load notes.db using the .restore command. Inspect the database using .schema and select *: is everything as you expected?
+
+```
+.restore notes.db
+```
+
+![exercise-21](./screenshots/exercise-21.png)
+
+# EXCERCISE-22
+> Re-run the query shown above using where job = name instead of the full table.name notation. Is the shortened form easier or harder to read and more or less likely to cause errors?
+
+```
+SELECT * FROM work, job WHERE work.job = job.name
+```
+
+![exercise-22](./screenshots/exercise-22.png)
+
+# EXCERCISE-23
+> Find the least time each person spent on any job. Your output should show that mik and po each spent 0.5 hours on some job. Can you find a way to show the name of the job as well using the SQL you have seen so far?
+
+```
+SELECT work.person, MIN(job.billable), job.name FROM work
+JOIN job ON work.job = job.name
+GROUP BY work.person;
+```
+
+![exercise-23](./screenshots/exercise-23.png)
