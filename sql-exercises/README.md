@@ -112,3 +112,6 @@ WHERE body_mass_g is NOT NULL AND sex is NULL
 ```
 
 ![exercise-10](./screenshots/exercise-10.png)
+
+
+hh
